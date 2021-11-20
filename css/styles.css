@@ -266,6 +266,11 @@ footer a {
     text-decoration: none;
 }
 
+.social img {
+  display: inline-block;
+      padding: 4%;}
+
+
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 550px), print { 
   /* Tablet Viewport: Show tab-desk class, hide mobile class */
@@ -327,6 +332,15 @@ footer a {
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .copyright {
+    float: left; width: 65%;
+  }
+
+  .social {
+    float: right;
+    width: 25%;
   }
 
   .grid {
